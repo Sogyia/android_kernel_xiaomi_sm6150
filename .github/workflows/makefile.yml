@@ -3,10 +3,10 @@ name: Kernel Build
 on:
   push:
     branches:
-      - main
+      - [ "15" ]
   pull_request:
     branches:
-      - main
+      - [ "15" ]
 
 jobs:
   build:
